@@ -1,0 +1,41 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    font-family: sans-serif;
+    max-width: fit-content;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#datepicker-component {
+    text-align: center;
+}
+
+#datepicker-component input {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding-left: 5px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#btn-component button {
+    position: relative;
+    left: 27px;
+    margin-top: 5px;
+    width: 172px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+button:active {
+    background-color: rgb(78, 76, 76);
+}
