@@ -1,5 +1,6 @@
-const datepicker = require('js-datepicker')
+import Datepicker from '/node_modules/vanillajs-datepicker/js/Datepicker.js';
 
-const input = document.querySelector('datepicker-component');
-
-const picker = datepicker(input);
+const picker = document.querySelector('input[name="datepicker"]');
+const datepicker = new Datepicker(picker, {
+    format: 'mm-dd-yyyy'
+});
