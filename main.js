@@ -22,6 +22,6 @@ button.addEventListener('click', () => {
 
     // If the datepicker is not empty, display the calculation
     if (picker.value !== '') {
-        document.getElementById('result').innerHTML = (`You are ${years} years, ${months} months, and ${days} days old`);
+        document.getElementById('result').innerHTML = (`You are ${years} year(s), ${months} month(s), and ${days} day(s) old`);
     }
 });
