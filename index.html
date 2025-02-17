@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/node_modules/js-datepicker/dist/datepicker.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="age-calculator">
+            <div id="title">
+                <h1>Age Calculator</h1>
+            </div>
+            <div id="datepicker-component">
+                <label for="datepicker">Enter your birth date:</label><br>
+                <input type="text" name="datepicker" id="textbox" placeholder="mm/dd/yyyy">
+            </div>
+            <div id="button-component">
+                <button type="button" id="calculate-button">Calculate</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/node_modules/js-datepicker/dist/datepicker.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
