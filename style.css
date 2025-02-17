@@ -8,6 +8,11 @@ body {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center; /* Center align the container content */
+}
+
+header {
+    text-align: center; /* Center align the header */
 }
 
 #datepicker-component {
@@ -22,9 +27,12 @@ body {
     margin-top: 10px;
 }
 
+#btn-component {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+}
+
 #btn-component button {
-    position: relative;
-    left: 27px;
     margin-top: 5px;
     width: 172px;
     height: 30px;
@@ -38,4 +46,11 @@ button:hover {
 
 button:active {
     background-color: rgb(78, 76, 76);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; /* Center align the result text */
 }
