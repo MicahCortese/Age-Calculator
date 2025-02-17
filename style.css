@@ -1,5 +1,9 @@
 body {
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .container {
@@ -8,11 +12,11 @@ body {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center; /* Center align the container content */
+    text-align: center;
 }
 
 header {
-    text-align: center; /* Center align the header */
+    text-align: center;
 }
 
 #datepicker-component {
@@ -21,22 +25,23 @@ header {
 
 #datepicker-component input {
     border: 2px solid black;
-    border-radius: 12px;
+    border-radius: 4px;
     padding-left: 5px;
     height: 30px;
     margin-top: 10px;
+    width: 172px;
 }
 
 #btn-component {
     display: flex;
-    justify-content: center; /* Center the button horizontally */
+    justify-content: center;
 }
 
 #btn-component button {
     margin-top: 5px;
     width: 172px;
     height: 30px;
-    border-radius: 12px;
+    border-radius: 4px;
 }
 
 button:hover {
@@ -52,5 +57,5 @@ button:active {
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
-    text-align: center; /* Center align the result text */
+    text-align: center;
 }
