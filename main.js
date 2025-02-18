@@ -1,5 +1,5 @@
-import { DateTime } from "/node_modules/luxon/src/luxon.js";
-import Datepicker from '/node_modules/vanillajs-datepicker/js/Datepicker.js';
+import { DateTime } from 'https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/es6/luxon.min.js';
+import Datepicker from 'https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/js/Datepicker.min.js';
 
 
 // Initialize the datepicker, set the format to 'mm-dd-yyyy', and set the max date to the current date
